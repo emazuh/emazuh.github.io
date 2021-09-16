@@ -8,8 +8,8 @@ venue: 'Interspeech'
 paperurl: 'http://groups.csail.mit.edu/sls/publications/2019/EmmanuelAzuh_Interspeech-2019.PDF'
 citation: 'Azuh, Emmanuel, David Harwath, and James R. Glass. "Towards Bilingual Lexicon Discovery From Visually Grounded Speech Audio." INTERSPEECH. 2019.'
 ---
-This paper is about the number 1. The number 2 is left for future work.
+This work presented a multimodal approach to learn bilingual lexicon directly from speech signals in two languages without the need for text by using vision as an interlingua. The approach starts a line of inquiry that can build word level translation between a pair of languages using say youtube videos that have similar objects but with speech in the two languages.
 
-[Download paper here](http://groups.csail.mit.edu/sls/publications/2019/EmmanuelAzuh_Interspeech-2019.PDF)
+# [Download paper here](http://groups.csail.mit.edu/sls/publications/2019/EmmanuelAzuh_Interspeech-2019.PDF)
 
 Recommended citation: Azuh, Emmanuel, David Harwath, and James R. Glass. "Towards Bilingual Lexicon Discovery From Visually Grounded Speech Audio." INTERSPEECH. 2019.
