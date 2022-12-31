@@ -47,15 +47,15 @@ When you have access to TVWS and when you don't
 
 ### Some Lessons
 
-    - Joining Gloire’s paper session made me realize I had been very narrowly focused on what ad hoc solution I can come up with in the moment and that’s there’s actually a wealth of information around research field work that I skipped over. The plan is to delve into the literature for ideas. Who knows? I might have a follow up blog if I find interesting insights.
-    - Setting up a remote station to debug from sounds nice in theory but can be challenging in practice. Device fails and you try to get an assistant at the remote site to help you debug over the phone but you get lucky less than half the time in resolving the issue [most likely a good idea to have a replica of the setup with you]
-    - Project involved being able to work with hardware (wiring from solar panel and taking a fixed voltage into the voltage and amperage rating of your devices, networking skills to debug when the TVWS router is not detecting your device [other way round?] and of course coding skills to setup remote access) → provide links?
-    - In hindsight, the project started with far too many moving parts. Starting with too many moving parts
-    - Tension between developing remotely and developing on the ground
-    - What reading material did I look for to be better prepared next time?
+1. Joining Gloire’s paper session made me realize I had been very narrowly focused on what ad hoc solution I can come up with in the moment and that’s there’s actually a wealth of information around research field work that I skipped over. The plan is to delve into the literature for ideas. Who knows? I might have a follow up blog if I find interesting insights.
+2. Setting up a remote station to debug from sounds nice in theory but can be challenging in practice. Device fails and you try to get an assistant at the remote site to help you debug over the phone but you get lucky less than half the time in resolving the issue [most likely a good idea to have a replica of the setup with you]
+3. Project involved being able to work with hardware (wiring from solar panel and taking a fixed voltage into the voltage and amperage rating of your devices, networking skills to debug when the TVWS router is not detecting your device [other way round?] and of course coding skills to setup remote access) → provide links?
+4. In hindsight, the project started with far too many moving parts. Starting with too many moving parts
+5. Tension between developing remotely and developing on the ground
+6. What reading material did I look for to be better prepared next time?
     
-   - Working in isolation
-   - 
+7. Working in isolation
+
 ### Conclusion
 
 
