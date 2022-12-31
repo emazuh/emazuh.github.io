@@ -23,6 +23,8 @@ Low Resource Wildlife Monitoring
     - 
 Percept shorted
 
+<iframe src="https://drive.google.com/file/d/1JyLXZHJ7rG67fPO_j5dIu89SBoRPyhKX/preview" width="640" height="480" allow="autoplay"></iframe>
+
 When the setup is far from base station but weather is not favorable
 
 When you are working from a far location (with one person to help with the setup)
