@@ -22,7 +22,7 @@ When you are working from a far location (with one person to help with the setup
 
 Working with new hardware with little support (and it getting phased out eventually)
 
-![image1](img1.txt)
+![image1](/files/edge-devices.jpg)
 
 Starting with too many moving parts
 
@@ -30,7 +30,7 @@ Curse of being at the forefront of the a heterogeneous hardware/software ecosyst
 
 Working in isolation
 
-![image2](img2.txt)
+![image2](/files/edge-monitoring_view.jpg)
 
 Tension between developing remotely and developing on the ground
 
