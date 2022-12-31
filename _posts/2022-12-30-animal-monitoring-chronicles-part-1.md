@@ -1,6 +1,6 @@
 ---
-title: 'Blog Post number 4'
-date: 2015-08-14
+title: 'Animal Monitoring Chronicles (Part 1)'
+date: 2022-12-30
 permalink: /posts/2022/12/animal-monitoring-chronicles-part-1/
 tags:
   - animal monitoring
