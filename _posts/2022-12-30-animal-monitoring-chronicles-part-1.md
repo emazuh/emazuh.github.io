@@ -19,11 +19,12 @@ With advances in remote sensing technology, there is excitment around new ways t
 ## The Setup
 
 ### Devices
-
+For this project, I started with three edge devices - an android phone, a raspberry pi and a Microsoft Azure Percept (link). I also had a standard camera trap in the setup to use as a comparison point with a standard device in the environmental monitoring community. Frameworks I use in this project include Pytorch, Android Studio, Python for most of the code implementation and C++ for dealing with Azure percept. I used Azure blob storage and Azure ML Studio (double check). I started with YoloV3 (tiny - {param count}). ONNX for model conversion in the tiny devices ecosystem. Bash scripting was used for running scheduled jobs such as data upload.
 ![image1](/files/edge-devices.jpg)
 
 
 ### The location
+Eastern Washington has large stretches of land used entirely for farming. Most of these farms are large multi-million dollar farms belonging to few people. Due to this fact, there are few settlements and this area I worked in is technically considered remote. I was mostly working in Farmington, WA, about a 5 hour drive from Seattle. You can drive for over in that region without proper cellular connection and this is worsened during weather events. During a snow storm, I lost connection for about two hours while driving back to Seattle. Again, the farms do not typically have electric power running through them so the only way to access electricity is through batteries and solar power.
 ![image2](/files/edge-monitoring_view.jpg)
 
 
@@ -40,6 +41,7 @@ When you are working from a far location (with one person to help with the setup
 Working with new hardware with little support (and it getting phased out eventually)
 
 Percept shorted
+One of the harder portions of the project was getting the Azure percept ready for use. First, following the tutorial for deploying a custom model (link) successfully took much longer than expected, partly due to esoteric issues that didn't have a lot of community support (leading to a need to swap model layer definitions to those with system support (link some of the errors). I eventually got the system running with a custom model and capturing the camera output and model prediction to the raspberry pi - the central device. Additionally, the percept came with an unconventional power specification that took myself and the farmer (who used to work at Microsoft) some time to figure out a convertor board that provided variable voltage given a fixed 24V suply (from the solar panel). Unfortunately, during one of my hardware debugging sessions, a wire accidentally touched the converter board and shorted it. Afterwards, we were never able to power on the percept :(.
 
 Being at the forefront of the a heterogeneous hardware/software ecosystem with fast moving development
 
