@@ -58,6 +58,9 @@ When you have access to TVWS and when you don't
     
 7. Working in isolation
 
+### Multimodal detection
+To situate the work in the ML literature, I am working with some existing datasets on low resource multimodal models for species classification. The motivation here is that audio visual edge devices are common and using both modalities is known to improve downstream tasks such as detecting or classifying fine grained species. This will not only beneficial for use cases as this edge detection project but can also make such algorithms more accessible to ecologists who might not have a lot of compute resources for their work. More on this part of the work will be discussed in a future blog post. *TODO: mention collab with Beth and UW fund*
+
 ### Conclusion
 
 
