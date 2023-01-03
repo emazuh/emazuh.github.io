@@ -52,7 +52,7 @@ Eastern Washington has large stretches of land used entirely for farming. Most o
 
 ## Some Challenges
 
-### Weather and access 
+### Weather and location access 
 The farm is setup on a hilly terrain and so it makes sense to have the observation station on top of the hill. During dry seasons (late spring through early fall), it’s decently easy to go up there with a gator. Though I was hesitant to drive it solo at first, given I was a new driver, it’s actually fun. However, during the winter, it’s much harder to get up there with the gator so you’d go on foot and it’s a good idea to carry handwarmers and expect lots of snowy mud.
 <iframe src="https://drive.google.com/file/d/1JyLXZHJ7rG67fPO_j5dIu89SBoRPyhKX/preview" width="640" height="480" allow="autoplay"></iframe>
 In addition, due to the remote location, getting replacement parts can be a slow process (either because Amazon shipping experiences delays between Spokane - the nearest city - and Farmington, or shops in the area are located far apart so driving around may waste time without results). It does help to call shops to verify availability of products before driving. This situation is echoed by my lab mates who travel to remote places to work on community cellular networks and something to plan for in such projects.
@@ -67,7 +67,7 @@ Being at the forefront of the a heterogeneous hardware/software ecosystem with f
 ### Hardware and electronics
 Additionally, the percept came with an unconventional power specification (19 Volts and 3.42 Amps DC) that took myself and the farmer (who used to work at Microsoft) some time to figure out a way to power it in the farm. We settled on a convertor board that provided variable voltage given a fixed 24V suply (from the solar panel). Unfortunately, during one of my hardware debugging sessions, a wire accidentally touched the converter board and shorted it. Afterwards, we were never able to power on the percept 😢. We also could not replace it as the device has been discontinued. The android and rpi were far easier to power on from the solar panel as their wattage were more standard.
 
-### Some Lessons
+## Some Lessons
 
 1. Joining Gloire’s paper session made me realize I had been very narrowly focused on what ad hoc solution I can come up with in the moment and that’s there’s actually a wealth of information around research field work that I skipped over. The plan is to delve into the literature for ideas. Who knows? I might have a follow up blog if I find interesting insights.
 2. Setting up a remote station to debug from sounds nice in theory but can be challenging in practice. Device fails and you try to get an assistant at the remote site to help you debug over the phone but you get lucky less than half the time in resolving the issue [most likely a good idea to have a replica of the setup with you]
@@ -79,7 +79,7 @@ Additionally, the percept came with an unconventional power specification (19 Vo
 7. Working in isolation
 
 ### Multimodal detection
-To situate the work in the ML literature, I am working with some existing datasets on low resource multimodal models for species classification. The motivation here is that audio visual edge devices are common and using both modalities is known to improve downstream tasks such as detecting or classifying fine grained species. This will not only beneficial for use cases as this edge detection project but can also make such algorithms more accessible to ecologists who might not have a lot of compute resources for their work. More on this part of the work will be discussed in a future blog post. *TODO: mention collab with Beth and UW fund*
+To situate the work in the ML literature, I am working with some existing datasets on low resource multimodal models for species classification. The motivation here is that audio visual edge devices are common and using both modalities is known to improve downstream tasks such as detecting or classifying fine grained species. This will not only be beneficial for use cases like this edge detection project but can also make such algorithms more accessible to ecologists who might not have a lot of compute resources for their work. More on this part of the work will be discussed in a future blog post. *TODO: mention collab with Beth and UW fund*
 
 ### Conclusion
 Though this project has had a long and windy road, I feel more comfortable in the ecosystem now and have lot of experience under my belt for going through the whole pipeline of developing models and deploying them in the real world. With the full pipeline ready, it's time to publish some results from different parts of the stack (starting with model development, then to efficient deployment). Afterwards, lessons I learned from my networking classes (especially projects around federated learning) will come in handy as I continue to explore the tradeoffs between edge computing and cloud machine learning. 
