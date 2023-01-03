@@ -46,28 +46,26 @@ Other notable resources are:
 As you can readily tell, the spaces is still young but fast growing! Heterogenous devices and development frameworks that one can easily drown in. However, a few mature products are already emerging and (Tensorflow Lite)[https://www.tensorflow.org/lite] is one of them with lots of community backing and quickly supporting more devices. Exchange platforms like ONNX is also instrumental in communicating among the different frameworks.
 
 ### The location
-Eastern Washington has large stretches of land used entirely for farming. Most of these farms are large multi-million dollar farms belonging to few people. Due to this fact, there are few settlements and this area I worked in is technically considered remote. I was mostly working in Farmington, WA, about a 5 hour drive from Seattle. You can drive for over in that region without proper cellular connection and this is worsened during weather events. During a snow storm, I lost connection for about two hours while driving back to Seattle. Again, the farms do not typically have electric power running through them so the only way to access electricity is through batteries and solar power.
+Eastern Washington has large stretches of land used entirely for farming. Most of these farms are large multi-million dollar farms belonging to few people. Due to this fact, there are few settlements and this area I worked in is technically considered remote. I was mostly working in Farmington, WA, about a 5 hour drive from Seattle. You can drive for over in that region without proper cellular connection and this is worsened during weather events. During a snow storm, I lost connection for about two hours while driving back to Seattle. Again, the farms do not typically have electric power running through them so the only way to access electricity is through batteries and solar power. The farm was testing TV Whitespace technology and so there was a portion of the farm that could access wifi. This allowed remote debugging while in Seattle (using VNC server/client to get around firewall restrictions to the farm network).
 ![image2](/files/edge-monitoring_view.jpg)
 
 
-### Challenges
+## Some Challenges
 
-Weather and access 
-The farm is setup on a hilly terrain and so it makes sense to have the observation station on top of the hill. During dry seasons (late spring through early fall), it’s decently easy to go up there with a gator. Though I was hesitant to drive it solo at first, given I was a new driver, it’s actually fun. However, during the winter, it’s much harder to get up there with the gator so you’d go on foot and it’s a good idea to carry handwarmers.
+### Weather and access 
+The farm is setup on a hilly terrain and so it makes sense to have the observation station on top of the hill. During dry seasons (late spring through early fall), it’s decently easy to go up there with a gator. Though I was hesitant to drive it solo at first, given I was a new driver, it’s actually fun. However, during the winter, it’s much harder to get up there with the gator so you’d go on foot and it’s a good idea to carry handwarmers and expect lots of snowy mud.
 <iframe src="https://drive.google.com/file/d/1JyLXZHJ7rG67fPO_j5dIu89SBoRPyhKX/preview" width="640" height="480" allow="autoplay"></iframe>
+In addition, due to the remote location, getting replacement parts can be a slow process (either because Amazon shipping experiences delays between Spokane - the nearest city - and Farmington, or shops in the area are located far apart so driving around may waste time without results). It does help to call shops to verify availability of products before driving. This situation is echoed by my lab mates who travel to remote places to work on community cellular networks and something to plan for in such projects.
 
-When the setup is far from base station but weather is not favorable
+### Remote access
+The setup was made such that I could perform most tasks remotely. However, when some issues arise that I can't address remotely, I would have to work with the farm assistant through a video call. This process was definitely more challenging than expected given I would sometimes need him to prod around to figure out why I lose access even though the device is connected after an incident (eg strong winds blowing down the setup). At times, I would have to schedule another visit to address issues because he could be occupied with other farm tasks for long stretches of time or accessing the setup was not feasible due to weather conditions.  At other times, the setup is tested at a part of the farm with no internet or power access. This obviously is even more blinding. Running into these challenges provide helpful insights into deployment challenges to design for this project and future deployments in developing countries.
 
-When you are working from a far location (with one person to help with the setup)
 
-Working with new hardware with little support (and it getting phased out eventually)
+### Limited community support in a quickly evolving ecosystem
+Being at the forefront of the a heterogeneous hardware/software ecosystem with fast moving development means you don't always get to move as quickly as you're acustomed to developing. Sometimes it takes trial and error, at other times it takes tracking down someone familiar with the device/framework. For instance, following the tutorial for deploying a [custom model]([link](https://github.com/microsoft/azure-percept-advanced-development/blob/main/tutorials/pytorch-from-scratch-tutorial/pytorch-from-scratch-tutorial.md#pytorch-from-scratch-tutorial)) successfully took much longer than expected, partly due to esoteric issues that didn't have a lot of community support. I ended up needing to swap model layer definitions to those with system support. Here is a [sample error](https://github.com/openvinotoolkit/openvino/issues/13594) being address a year after I was working with the system. I eventually got the system running with a custom model and capturing the camera output and model prediction to the raspberry pi - the central device.
 
-Percept shorted
-One of the harder portions of the project was getting the Azure percept ready for use. First, following the tutorial for deploying a custom model (link) successfully took much longer than expected, partly due to esoteric issues that didn't have a lot of community support (leading to a need to swap model layer definitions to those with system support (link some of the errors). I eventually got the system running with a custom model and capturing the camera output and model prediction to the raspberry pi - the central device. Additionally, the percept came with an unconventional power specification that took myself and the farmer (who used to work at Microsoft) some time to figure out a convertor board that provided variable voltage given a fixed 24V suply (from the solar panel). Unfortunately, during one of my hardware debugging sessions, a wire accidentally touched the converter board and shorted it. Afterwards, we were never able to power on the percept :(.
-
-Being at the forefront of the a heterogeneous hardware/software ecosystem with fast moving development
-
-When you have access to TVWS and when you don't 
+### Hardware and electronics
+Additionally, the percept came with an unconventional power specification (19 Volts and 3.42 Amps DC) that took myself and the farmer (who used to work at Microsoft) some time to figure out a way to power it in the farm. We settled on a convertor board that provided variable voltage given a fixed 24V suply (from the solar panel). Unfortunately, during one of my hardware debugging sessions, a wire accidentally touched the converter board and shorted it. Afterwards, we were never able to power on the percept 😢. We also could not replace it as the device has been discontinued. The android and rpi were far easier to power on from the solar panel as their wattage were more standard.
 
 ### Some Lessons
 
@@ -84,7 +82,6 @@ When you have access to TVWS and when you don't
 To situate the work in the ML literature, I am working with some existing datasets on low resource multimodal models for species classification. The motivation here is that audio visual edge devices are common and using both modalities is known to improve downstream tasks such as detecting or classifying fine grained species. This will not only beneficial for use cases as this edge detection project but can also make such algorithms more accessible to ecologists who might not have a lot of compute resources for their work. More on this part of the work will be discussed in a future blog post. *TODO: mention collab with Beth and UW fund*
 
 ### Conclusion
-
-
+Though this project has had a long and windy road, I feel more comfortable in the ecosystem now and have lot of experience under my belt for going through the whole pipeline of developing models and deploying them in the real world. With the full pipeline ready, it's time to publish some results from different parts of the stack (starting with model development, then to efficient deployment). Afterwards, lessons I learned from my networking classes (especially projects around federated learning) will come in handy as I continue to explore the tradeoffs between edge computing and cloud machine learning. 
 
 
