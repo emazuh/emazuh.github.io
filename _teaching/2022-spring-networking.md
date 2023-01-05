@@ -1,7 +1,7 @@
 ---
 title: "CSEP561 - Networking Systems"
 collection: teaching
-type: "Workshop"
+type: "Class"
 permalink: /teaching/2022-spring-networking
 venue: "University of Washington, Computer Science Department"
 date: 2022-03-17
