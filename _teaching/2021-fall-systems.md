@@ -1,7 +1,7 @@
 ---
 title: "CSE550 - Computer Systems (for All)"
 collection: teaching
-type: "Workshop"
+type: "Class"
 permalink: /teaching/2021-fall-systems
 venue: "University of Washington, Computer Science Department"
 date: 2021-09-29
