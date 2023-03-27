@@ -8,9 +8,6 @@ tags:
   - computing for wildlife monitoring
 ---
 
-This blog is in progress
---------------------------
-
 Low Resource Wildlife Monitoring
 ======================
 
