@@ -40,7 +40,7 @@ redirect_from:
 
 
 <body>
-    <iframe src="/files/Emmanuel_CV_Fall23.pdf" width="90%" height="90%" frameborder="0">
+    <iframe src="/files/Emmanuel_CV_Fall23.pdf" width="90%" height="500px" frameborder="0">
     </iframe>
 <!--     <div class="pdf">
         <object data="/files/Emmanuel_CV_Fall23.pdf"
