@@ -9,7 +9,7 @@ redirect_from:
 
 <!-- <embed src="/files/Emmanuel_CV_Fall23.pdf" type="application/pdf" width="600px" height="500px" /> -->
 
-<html>
+<html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Embedding a PDF using static HTML markup: Sized element</title>
@@ -42,10 +42,11 @@ redirect_from:
 <body>
 <!--     <iframe src="/files/Emmanuel_CV_Fall23.pdf">
     </iframe> -->
-<!--     <div class="pdf">
+    <div class="pdf">
         <object data="/files/Emmanuel_CV_Fall23.pdf"
         type="application/pdf">
         <p>You do not seem to have a functional PDF plug-in for this browser.</p>
         </object>
-    </div> -->
+    </div>
 </body>
+</html>
