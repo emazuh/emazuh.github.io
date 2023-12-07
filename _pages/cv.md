@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-<!-- <embed src="/files/Emmanuel_Azuh_CV.pdf" type="application/pdf" width="600px" height="500px" /> -->
+<!-- <embed src="/files/Emmanuel_CV_Fall23.pdf" type="application/pdf" width="600px" height="500px" /> -->
 
 <html>
 <head>
@@ -40,8 +40,10 @@ redirect_from:
 
 
 <body>
+    <iframe src="/files/Emmanuel_CV_Fall23.pdf">
+    </iframe>
     <div class="pdf">
-        <object data="/files/Emmanuel_Azuh_CV.pdf"
+        <object data="/files/Emmanuel_CV_Fall23.pdf"
         type="application/pdf">
         <p>You do not seem to have a functional PDF plug-in for this browser.</p>
         </object>
