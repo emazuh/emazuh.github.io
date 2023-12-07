@@ -40,8 +40,8 @@ redirect_from:
 
 
 <body>
-    <iframe src="/files/Emmanuel_CV_Fall23.pdf">
-    </iframe>
+<!--     <iframe src="/files/Emmanuel_CV_Fall23.pdf">
+    </iframe> -->
 <!--     <div class="pdf">
         <object data="/files/Emmanuel_CV_Fall23.pdf"
         type="application/pdf">
