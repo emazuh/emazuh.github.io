@@ -42,10 +42,10 @@ redirect_from:
 <body>
     <iframe src="/files/Emmanuel_CV_Fall23.pdf">
     </iframe>
-    <div class="pdf">
+<!--     <div class="pdf">
         <object data="/files/Emmanuel_CV_Fall23.pdf"
         type="application/pdf">
         <p>You do not seem to have a functional PDF plug-in for this browser.</p>
         </object>
-    </div>
+    </div> -->
 </body>
