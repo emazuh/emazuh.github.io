@@ -7,4 +7,6 @@ redirect_from:
   - /resume
 ---
 
-<embed src="https://emazuh.github.io/files/Emmanuel_Azuh_CV.pdf" type="application/pdf" width="600px" height="500px" />
+<embed src="/files/Emmanuel_Azuh_CV.pdf" type="application/pdf" width="100%" height="800px" />
+
+[Download CV (PDF)](/files/Emmanuel_Azuh_CV.pdf){: .btn .btn--info}

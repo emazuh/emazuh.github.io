@@ -1,13 +1,92 @@
 ---
 permalink: /
-title: "About Me"
-excerpt: "Ghanaian student pursing a PhD in the Univeristy of Washington."
+title: ""
+excerpt: "On-device machine learning for the field"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-Hello, I am a second year graduate student in the Computer Science and Engineering department within the University of Washington. I’m currently working in the [ICTD lab](https://ictd.cs.washington.edu) with [Kurtis Heimerl](https://kurti.sh) and [Tim Dettmers](https://timdettmers.com/about/). I received both my bachelor’s degree in Electrical Engineering and Computer Science and Master of Engineering degree in Computer Science from MIT.
+{% include base_path %}
 
-My research broadly addresses ways to make machine learning algorithms more applicable in low resource settings. Due to this interest, I closely follow work in edge machine learning, federated learning and hardware-software codesign of machine learning algorithms. At present, I’m looking at energy efficient ways to use various edge devices (android phone, raspberry pi and Azure percept) to perform wildlife detection for conservation and agricultural use cases. For this project, I look at both a multimodal approach for the detection (video and sound) as well as the edge optimization for energy efficiency. This is a joint project with [Farmbeats](https://www.microsoft.com/en-us/research/project/farmbeats-iot-agriculture/) and [Nelson Farms](https://www.facebook.com/farmingtherollinghills/) in Eastern Washington and sponsored by [Azure AI for Earth grant](https://www.microsoft.com/en-us/ai/ai-for-earth).
+![Intelligence that runs where the network doesn't](/images/hero_composite.jpg){: .align-center}
+
+PhD candidate, Paul G. Allen School of Computer Science, University of Washington.
+I build efficient, **on-device machine learning** for places with no power budget,
+no network, and little context — wildlife camera traps in remote landscapes.
+BS/MEng, MIT.
+
+*Open to industry ML / research roles.*
+
+---
+
+## The problem I work on
+
+My dissertation tackles a single question: how do you run capable machine learning
+in places with no power to spare, no network to reach, and no context but a GPS
+coordinate? Unattended camera traps in the field face exactly this — and each
+constraint shapes one thread of the work.
+
+![Dissertation overview: one deployment setting, three bottlenecks](/images/thesis_frame.svg){: .align-center}
+
+---
+
+## Selected projects
+
+<div style="display:flex;gap:1.25em;align-items:flex-start;flex-wrap:wrap;margin:0.5em 0 1.75em">
+  <a href="/portfolio/geo-adapters/" style="flex:0 0 300px;max-width:300px;display:block">
+    <img src="/images/geo_adapters_teaser.png" alt="Geo-aware edge models for species recognition" style="width:100%;border:1px solid #e2e5ea;border-radius:8px" />
+  </a>
+  <div style="flex:1 1 320px">
+    <a href="/portfolio/geo-adapters/"><strong>Towards Geo-Aware Edge Models for Species Recognition</strong></a><br/>
+    <span style="color:#2a7de1;font-weight:600">WACV 2027</span> &middot; <span style="color:#888">under review</span><br/>
+    <span style="color:#555"><strong>TL;DR</strong> &mdash; Geographic priors help a weak on-device classifier (<strong>+8.1</strong> top-1) but <em>hurt</em> a strong backbone (<strong>&minus;5.4</strong>): a headroom-dependent sign flip. The same region structure prunes the classifier head 1.6&ndash;300&times; for microcontroller deployment.</span><br/>
+    <a class="btn btn--info" href="/portfolio/geo-adapters/" style="margin-top:.6em">Project page</a>
+  </div>
+</div>
+
+<div style="display:flex;gap:1.25em;align-items:flex-start;flex-wrap:wrap;margin:0.5em 0 1.75em">
+  <a href="/portfolio/on-device-ai-conservation/" style="flex:0 0 300px;max-width:300px;display:block">
+    <img src="/images/chi_ondevice_ai_teaser.png" alt="On-device AI for conservation work" style="width:100%;border:1px solid #e2e5ea;border-radius:8px" />
+  </a>
+  <div style="flex:1 1 320px">
+    <a href="/portfolio/on-device-ai-conservation/"><strong>The Promise and Peril of On-Device AI for Conservation Work</strong></a><br/>
+    <span style="color:#2a7de1;font-weight:600">CHI 2026</span><br/>
+    <span style="color:#555"><strong>TL;DR</strong> &mdash; A field study across Pacific Northwest &amp; Namibia conservancies, paired with a working on-device transcription&rarr;LLM prototype on EarthRanger. On-device LLMs show promise for field data collection, but current models' infrastructure clashes with resource-limited conservation settings.</span><br/>
+    <a class="btn btn--info" href="/portfolio/on-device-ai-conservation/" style="margin-top:.6em">Project page</a>
+    <a class="btn" href="https://dl.acm.org/doi/10.1145/3772318.3791359" style="margin-top:.6em">Paper</a>
+  </div>
+</div>
+
+<div style="display:flex;gap:1.25em;align-items:flex-start;flex-wrap:wrap;margin:0.5em 0 1.75em">
+  <a href="/portfolio/edge-vision-adapters/" style="flex:0 0 300px;max-width:300px;display:block">
+    <img src="/images/compass_edge_vision_teaser.png" alt="Efficient mobile transformer models for the edge" style="width:100%;border:1px solid #e2e5ea;border-radius:8px" />
+  </a>
+  <div style="flex:1 1 320px">
+    <a href="/portfolio/edge-vision-adapters/"><strong>Efficient Mobile Transformer Models for Wildlife Monitoring on the Edge</strong></a><br/>
+    <span style="color:#2a7de1;font-weight:600">COMPASS 2026</span> &middot; <span style="color:#888">under review</span><br/>
+    <span style="color:#555"><strong>TL;DR</strong> &mdash; Convolutional adapter experts on compact vision transformers (MobileViT), combined by continuous gating to keep a <em>static</em> execution graph for edge accelerators (Apple Neural Engine, ~1.0&nbsp;ms). A controlled comparison of four adapter designs shows more experts is not a reliable path to more accuracy.</span><br/>
+    <a class="btn btn--info" href="/portfolio/edge-vision-adapters/" style="margin-top:.6em">Project page</a>
+  </div>
+</div>
+
+<div style="display:flex;gap:1.25em;align-items:flex-start;flex-wrap:wrap;margin:0.5em 0 1.75em">
+  <a href="/portfolio/edge-kd-adapters/" style="flex:0 0 300px;max-width:300px;display:block">
+    <img src="/images/kd_adapters_teaser.png" alt="Residual adapters vs backbone distillation on edge classifiers" style="width:100%;border:1px solid #e2e5ea;border-radius:8px" />
+  </a>
+  <div style="flex:1 1 320px">
+    <a href="/portfolio/edge-kd-adapters/"><strong>Residual Adapters or Backbone Adaptation?</strong></a><br/>
+    <span style="color:#2a7de1;font-weight:600">AAAI 2027</span> &middot; <span style="color:#888">under review</span><br/>
+    <span style="color:#555"><strong>TL;DR</strong> &mdash; When compressing biological foundation models to the edge, residual adapters and knowledge distillation are usually combined &mdash; but they capture the <em>same</em> gain. Adapters add <strong>+13.7</strong> pts on a frozen backbone yet <strong>nothing</strong> after distillation: the two substitute rather than complement.</span><br/>
+    <a class="btn btn--info" href="/portfolio/edge-kd-adapters/" style="margin-top:.6em">Project page</a>
+  </div>
+</div>
+
+*Dissertation code is being open-sourced as each paper is released.*
+
+---
+
+## Highlights
+
+CHI 2026 · TOCHI 2026 · Interspeech 2019 · IEEE Sensors 2018 · Azure AI for Earth grant · Created the vision unit of MIT's Deep Learning Practicum (6.S198) · BS/MEng, MIT
