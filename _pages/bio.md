@@ -14,7 +14,8 @@ Computer Science and an MEng in Computer Science, both from MIT.
 My research makes machine learning practical in low-resource settings — spanning edge ML,
 federated learning, and hardware–software co-design. My dissertation applies this to
 wildlife monitoring on unattended edge devices: multimodal detection (video + sound) and
-the efficiency work that lets it run in the field, supported by an
+the efficiency work that lets it run in the field, supported by the U.S. National AI
+Research Resource (NAIRR) Pilot and an
 [Azure AI for Earth](https://www.microsoft.com/en-us/ai/ai-for-earth) grant. As the
 on-device distillation work matures, [Nelson Farms](https://www.facebook.com/farmingtherollinghills/)
 (Eastern Washington) and [Conservation X Labs](https://conservationxlabs.com/) will serve as
