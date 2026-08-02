@@ -1,7 +1,7 @@
 ---
 title: "Deep Learning Practicum (MIT 6.S198)"
 collection: teaching
-type: "Undergraduate course"
+type: "Undergraduate Teaching Assistant"
 permalink: /teaching/2018-spring-deep-learning
 venue: "MIT"
 date: 2018-02-01

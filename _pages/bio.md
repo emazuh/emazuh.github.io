@@ -22,3 +22,5 @@ on-device distillation work matures, [Nelson Farms](https://www.facebook.com/far
 deployment partners.
 
 For current work, see my [selected projects](/) and [publications](/publications/).
+
+My current guides are Mandelbrot and Hegel.

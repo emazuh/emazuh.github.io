@@ -85,6 +85,32 @@ constraint shapes one thread of the work.
 
 *Dissertation code is being open-sourced as each paper is released.*
 
+## Active collaborations
+
+<div style="display:flex;gap:1.25em;align-items:flex-start;flex-wrap:wrap;margin:0.5em 0 1.75em">
+  <a href="/portfolio/microrobots-vision/" style="flex:0 0 300px;max-width:300px;display:block">
+    <img src="/images/microrobots_vision.png" alt="Battery-free on-board computer vision for insect-scale microrobots" style="width:100%;border:1px solid #e2e5ea;border-radius:8px" />
+  </a>
+  <div style="flex:1 1 320px">
+    <a href="/portfolio/microrobots-vision/"><strong>Battery-free On-Board Computer Vision for Insect-scale Microrobots</strong></a><br/>
+    <span style="color:#2a7de1;font-weight:600">In progress</span> &middot; <span style="color:#888">2025</span><br/>
+    <span style="color:#555">Battery-free insect detection &amp; classification on solar-powered milli-robots with tiny ML for microcontrollers &mdash; with Kyle Johnson and Vicente Arroyos; late-breaking poster at IEEE ICRA.</span><br/>
+    <a class="btn btn--info" href="/portfolio/microrobots-vision/" style="margin-top:.6em">Project page</a>
+  </div>
+</div>
+
+<div style="display:flex;gap:1.25em;align-items:flex-start;flex-wrap:wrap;margin:0.5em 0 1.75em">
+  <a href="/portfolio/metaheuristics-moe/" style="flex:0 0 300px;max-width:300px;display:block">
+    <img src="/images/metaheuristics_moe.png" alt="Metaheuristics for mixture-of-expert architecture search" style="width:100%;border:1px solid #e2e5ea;border-radius:8px" />
+  </a>
+  <div style="flex:1 1 320px">
+    <a href="/portfolio/metaheuristics-moe/"><strong>Metaheuristics for Mixture-of-Expert Architecture Search</strong></a><br/>
+    <span style="color:#2a7de1;font-weight:600">In progress</span> &middot; <span style="color:#888">2025</span><br/>
+    <span style="color:#555">Neuroscience-informed heuristics (with UW neuroscientist Ian Quah) for searching ultra energy-efficient edge vision transformers via data-dependent subnetwork computation.</span><br/>
+    <a class="btn btn--info" href="/portfolio/metaheuristics-moe/" style="margin-top:.6em">Project page</a>
+  </div>
+</div>
+
 ---
 
 ## Highlights
