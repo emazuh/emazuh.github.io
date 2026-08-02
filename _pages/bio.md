@@ -18,7 +18,7 @@ sparsity** for efficient inference. My main application is **wildlife monitoring
 ecological conservation**, though the work is broadly applicable to edge deep learning: I
 pursue both a **multimodal approach to detection** (video and sound) and **edge optimization
 for energy efficiency** (through nature-inspired inductive biases), testing proposed models
-on **CPU, Raspberry Pi, Google Edge TPU, and Android**.
+on **CPU, Raspberry Pi, Google Edge TPU, and Apple Neural Engine**.
 
 I partner with stakeholders in conservation
 ([Conservation X Labs](https://conservationxlabs.com/), the
