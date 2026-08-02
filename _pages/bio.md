@@ -15,10 +15,12 @@ My research makes machine learning practical in low-resource settings — spanni
 federated learning, and hardware–software co-design. My dissertation applies this to
 wildlife monitoring on unattended edge devices: multimodal detection (video + sound) and
 the efficiency work that lets it run in the field, supported by the U.S. National AI
-Research Resource (NAIRR) Pilot and an
-[Azure AI for Earth](https://www.microsoft.com/en-us/ai/ai-for-earth) grant. As the
+Research Resource (NAIRR) Pilot, an
+[Azure AI for Earth](https://www.microsoft.com/en-us/ai/ai-for-earth) grant, and a
+[UW CS for the Environment Fellowship](https://cs4env.uw.edu/). As the
 on-device distillation work matures, [Nelson Farms](https://www.facebook.com/farmingtherollinghills/)
-(Eastern Washington) and [Conservation X Labs](https://conservationxlabs.com/) will serve as
+(Eastern Washington), [Conservation X Labs](https://conservationxlabs.com/), and the
+[Quantitative Ecology Lab](https://depts.washington.edu/sefsqel/) will serve as
 deployment partners.
 
 For current work, see my [selected projects](/) and [publications](/publications/).
