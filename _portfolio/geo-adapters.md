@@ -66,5 +66,5 @@ datasets spanning citizen-science and camera-trap settings, with on-device measu
 
 ---
 
-*Paper is under double-blind review; the preprint, code, and BibTeX will be linked here
-once the review period closes.*
+*Paper is under double-blind review — the manuscript is available on request. The preprint,
+code, and BibTeX will be linked here once the review period closes.*

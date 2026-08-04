@@ -56,5 +56,5 @@ foundation models onto resource-constrained edge hardware.
 
 ---
 
-*Paper is under review; the preprint, code, and BibTeX will be linked here once the review
-period closes.*
+*Paper is under review — the manuscript is available on request. The preprint, code, and
+BibTeX will be linked here once the review period closes.*

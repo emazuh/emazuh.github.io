@@ -83,7 +83,7 @@ constraint shapes one thread of the work.
   </div>
 </div>
 
-*Dissertation code is being open-sourced as each paper is released.*
+*Dissertation code is being open-sourced as each paper is released. Manuscripts for papers under review are available on request.*
 
 ## Active collaborations
 
@@ -115,4 +115,4 @@ constraint shapes one thread of the work.
 
 ## Highlights
 
-CHI 2026 · TOCHI 2026 · Interspeech 2019 · IEEE Sensors 2018 · NAIRR Pilot · Azure AI for Earth grant · UW CS for the Environment Fellowship · Created the vision unit of MIT's Deep Learning Practicum (6.S198) · BS/MEng, MIT
+CHI 2026 · TOCHI 2026 · Interspeech 2019 · IEEE Sensors 2018 · NAIRR Pilot · Azure AI for Earth grant · UW CS for the Environment Fellowship · Qualcomm Innovation Fellowship (selected abstract) · Created the vision unit of MIT's Deep Learning Practicum (6.S198) · BS/MEng, MIT

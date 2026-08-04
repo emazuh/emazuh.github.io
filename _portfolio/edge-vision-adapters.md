@@ -53,5 +53,5 @@ mobile-scale conditions, across multiple seeds:
 
 ---
 
-*Paper is under review; the preprint, code, and BibTeX will be linked here once the review
-period closes.*
+*Paper is under review — the manuscript is available on request. The preprint, code, and
+BibTeX will be linked here once the review period closes.*
