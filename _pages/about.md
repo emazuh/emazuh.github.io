@@ -83,6 +83,18 @@ constraint shapes one thread of the work.
   </div>
 </div>
 
+<div style="display:flex;gap:1.25em;align-items:flex-start;flex-wrap:wrap;margin:0.5em 0 1.75em">
+  <a href="/portfolio/moe-routing-limits/" style="flex:0 0 300px;max-width:300px;display:block">
+    <img src="/images/moe_routing_teaser.png" alt="Limits of mixture-of-experts routing in compact vision distillation" style="width:100%;border:1px solid #e2e5ea;border-radius:8px" />
+  </a>
+  <div style="flex:1 1 320px">
+    <a href="/portfolio/moe-routing-limits/"><strong>Understanding the Limits of Mixture-of-Experts Routing in Compact Vision Distillation</strong></a><br/>
+    <span style="color:#2a7de1;font-weight:600">WACV 2027</span> &middot; <span style="color:#888">under review</span><br/>
+    <span style="color:#555"><strong>TL;DR</strong> &mdash; With a teacher-informed oracle, MoE routing is worth <strong>+16.3</strong> pts on a compact vision student &mdash; but without the teacher the student can't exploit it, and deployable routing stays at the uniform baseline. The exploitable gap is fine-grained, within-class routing.</span><br/>
+    <a class="btn btn--info" href="/portfolio/moe-routing-limits/" style="margin-top:.6em">Project page</a>
+  </div>
+</div>
+
 *Dissertation code is being open-sourced as each paper is released. Manuscripts for papers under review are available on request.*
 
 ## Active collaborations
